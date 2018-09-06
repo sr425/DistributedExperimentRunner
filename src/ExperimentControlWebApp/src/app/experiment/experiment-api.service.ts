@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { ObservableLike, Observable } from 'rxjs';
 import { ExperimentPart } from '../model/models';
-import { HttpRequest } from 'selenium-webdriver/http';
 
 @Injectable({
   providedIn: 'root'
